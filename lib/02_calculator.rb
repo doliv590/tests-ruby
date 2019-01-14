@@ -1,35 +1,35 @@
 def add(a, b)
-  retuns a + b
+   a + b
 end
 
 def subtract(a, b)
-  returns a - b
+   a - b
 end
 
-def sum(a, b)
-   returns a + b
+def sum(arr)
+    arr.sum
 end
 
 def multiply(a, b)
- returns a * b
+  a * b
 end
 
 def power(a, b)
-   returns a ** b
+    a ** b
 end
 
 def factorial(a)
 
   result = Array.new
 
-  	if nb == 0
+  	if a == 0
   		return 1
 
-  	elsif nb > 0
+  	elsif a > 0
 
-  		while nb>= 1
-  			result << nb
-  			nb = nb - 1
+  		while a>= 1
+  			result << a
+  			a = a - 1
   			end
 
   			return result.inject(:*)

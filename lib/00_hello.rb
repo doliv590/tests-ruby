@@ -1,8 +1,7 @@
 def hello
-puts "Hello!"
+	return "Hello!"
 end
 
 def greet(name)
-  name = gets.chomp
-  puts "Hello, #{name}"
+	return "Hello, #{name}!"
 end
